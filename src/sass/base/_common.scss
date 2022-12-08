@@ -1,0 +1,43 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+::placeholder {
+  color: $color-white;
+  font-size: 14px;
+}
+
+a {
+  color: inherit;
+}
+
+
+
+body {
+  font-family: $font-roboto;
+  color: $color-white;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: calc(16/12);
+}

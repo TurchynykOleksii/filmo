@@ -1,0 +1,58 @@
+.header__library {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url('../images/library/320/library@1x.jpg');
+  @include background-image;
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    background-image: linear-gradient(#00000056, #00000056),
+      url('../images/library/320/library@2x.jpg');
+  }
+
+  @include tablet {
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../images/library/768/library@1x.jpg');
+    @include background-image;
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      background-image: linear-gradient(#00000056, #00000056),
+        url('../images/library/768/library@2x.jpg');
+    }
+  }
+
+  @include desktop {
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../images/library/1280/library@1x.jpg');
+    @include background-image;
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      background-image: linear-gradient(#00000056, #00000056),
+        url('../images/library/1280/library@2x.jpg');
+    }
+  }
+}
+
+.header__btn-watched {
+  background-color: $color-accent;
+}
+
+.header__btn-queue {
+  border: 1px solid $color-white;
+}
+
+.header__btn-queue,
+.header__btn-watched {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.header__btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}

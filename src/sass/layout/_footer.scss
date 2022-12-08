@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 29px;
+  padding-bottom: 29px;
+  background-color: $color-grey;
+  color: $color-dark-grey;
+
+  font-size: 14px;
+
+}
+
+.footer__heart {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.footer__copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
