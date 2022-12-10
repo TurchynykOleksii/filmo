@@ -32,7 +32,11 @@ a {
   color: inherit;
 }
 
-
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
 body {
   font-family: $font-roboto;

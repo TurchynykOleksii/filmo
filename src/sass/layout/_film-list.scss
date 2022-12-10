@@ -1,0 +1,19 @@
+.film {
+  max-width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+  color: black;
+}
+
+
+.movie-list {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
